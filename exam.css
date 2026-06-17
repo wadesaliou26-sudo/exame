@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #F9F6F2;
+  font-family: Arial, sans-serif;
+}
+.header{
+background: none;
+text-align: center;
+justify-content: center;
+align-items: center;
+color: rgba(121, 26, 26, 0.783);
+font-style: italic;
+
+}
+
+nav {
+  width: 100%;
+  background: none;
+  
+}
+nav ul {
+padding: 0;
+margin: 0;}
+nav a {
+text-decoration: none;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 16px;
+padding: 20px  30px;
+color: black;
+text-transform: uppercase;
+}
+.navbar{
+display: table;
+margin: 0px;
+display: flex;
+justify-content: space-around;}
+
+
+nav li {
+  list-style-type: none;
+  float: left;
+}
+.acc:hover {border-top: 5px solid green;
+  background-color: rgba(64, 200, 130, 0.15);
+}
+.con:hover {border-top: 5px solid yellow;
+   background-color: rgba(163, 190, 9, 0.15);}
+.pan:hover {border-top: 5px solid red;
+  background-color: rgba(164, 20, 130, 0.15);}
+.pr:hover{border-top: 5px solid blue;
+  background-color: rgba(64, 200, 191, 0.15);}
+.ca:hover{border-top: 5px solid blueviolet;
+  background-color: rgba(43, 55, 191, 0.15);
+}
+.conn:hover{border-top: 5px solid yellowgreen;
+  background-color: rgba(196, 207, 49, 0.15);}
+.ins:hover{border-top: 5px solid rgb(182, 111, 5);
+  background-color: rgba(164, 20, 66, 0.15);}
+.menu  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:15%;
+  gap: 50px;
+  background-image: url(img/Copilot_20260613_135541.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70%;
+
+}
+
+.sec1{
+padding: 40px  30px;}
+ h3{
+font-size: 40px;
+font-weight: bold;
+color: rgba(121, 26, 26, 0.783);
+text-align: center;
+justify-content: center;}
+.produit{
+padding: 20px  30px;
+color:rgba(121, 26, 26, 0.783) ;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+.sec1-pro{
+display: flex;
+justify-content: space-between;}
+footer{
+justify-content: center;
+align-items: center;
+color: aliceblue;
+background: black;
+padding: 60px  30px;
+text-align: center;}
+.foo{
+display: flex;
+justify-content: space-around;}
+
+/* Media Queries - Responsif */
+
+/* Tablettes et écrans petits (768px et moins) */
+@media screen and (max-width: 768px) {
+  nav a {
+    font-size: 14px;
+    padding: 15px 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  nav li {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .menu {
+    gap: 20px;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+  
+  .sec1-pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .produit {
+    padding: 15px;
+    margin: 10px 0;
+  }
+  
+  h3 {
+    font-size: 30px;
+  }
+  
+  footer {
+    padding: 40px 20px;
+  }
+  
+  .foo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .container {
+    padding: 15px;
+  }
+}
+
+/* Mobiles (480px et moins) */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  header p {
+    font-size: 12px;
+  }
+  
+  nav a {
+    font-size: 12px;
+    padding: 12px 15px;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav li {
+    float: none;
+    width: 100%;
+  }
+  
+  .menu {
+    padding: 10px;
+    gap: 15px;
+    height: auto;
+  }
+  
+  .menu1 h2 {
+    font-size: 20px;
+  }
+  
+  .menu1 p {
+    font-size: 12px;
+  }
+  
+  .btn {
+    padding: 8px 15px;
+    font-size: 12px;
+  }
+  
+  .Maillot {
+    width: 100px;
+  }
+  
+  h3 {
+    font-size: 22px;
+  }
+  
+  .produit {
+    padding: 10px;
+    font-size: 12px;
+  }
+  
+  #img {
+    width: 80px;
+  }
+  
+  footer {
+    padding: 20px 15px;
+    font-size: 12px;
+  }
+  
+  .sec1 {
+    padding: 20px 15px;
+  }
+}
+
+/* Petits écrans (480px à 768px) */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  nav a {
+    padding: 15px 18px;
+    font-size: 13px;
+  }
+  
+  .menu {
+    gap: 30px;
+  }
+}
+.produit{
+max-width: 10%;
+height: auto;}
+ .img{
+width: 25%;
+height: auto;}
